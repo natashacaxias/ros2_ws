@@ -1,4 +1,0 @@
-Invoking command in '/home/robot/ros2_ws/build/p3at_simulation': /usr/bin/cmake --build /home/robot/ros2_ws/build/p3at_simulation -- -j12 -l12
-Invoked command in '/home/robot/ros2_ws/build/p3at_simulation' returned '0': /usr/bin/cmake --build /home/robot/ros2_ws/build/p3at_simulation -- -j12 -l12
-Invoking command in '/home/robot/ros2_ws/build/p3at_simulation': /usr/bin/cmake --install /home/robot/ros2_ws/build/p3at_simulation
-Invoked command in '/home/robot/ros2_ws/build/p3at_simulation' returned '0': /usr/bin/cmake --install /home/robot/ros2_ws/build/p3at_simulation

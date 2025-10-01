@@ -1,1 +1,0 @@
-/home/robot/ros2_ws/src/p3at_simulation/setup.py

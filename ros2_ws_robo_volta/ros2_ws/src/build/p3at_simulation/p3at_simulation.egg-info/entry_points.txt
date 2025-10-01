@@ -1,3 +1,0 @@
-[console_scripts]
-p3at_controller = p3at_simulation.p3at_controller:main
-

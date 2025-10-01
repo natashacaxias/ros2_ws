@@ -1,9 +1,0 @@
-/home/robot/ros2_ws/build/p3at_simulation/CMakeFiles/uninstall.dir
-/home/robot/ros2_ws/build/p3at_simulation/CMakeFiles/p3at_simulation_uninstall.dir
-/home/robot/ros2_ws/build/p3at_simulation/CMakeFiles/test.dir
-/home/robot/ros2_ws/build/p3at_simulation/CMakeFiles/edit_cache.dir
-/home/robot/ros2_ws/build/p3at_simulation/CMakeFiles/rebuild_cache.dir
-/home/robot/ros2_ws/build/p3at_simulation/CMakeFiles/list_install_components.dir
-/home/robot/ros2_ws/build/p3at_simulation/CMakeFiles/install.dir
-/home/robot/ros2_ws/build/p3at_simulation/CMakeFiles/install/local.dir
-/home/robot/ros2_ws/build/p3at_simulation/CMakeFiles/install/strip.dir
