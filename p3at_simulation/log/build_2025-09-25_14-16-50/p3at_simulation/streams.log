@@ -1,0 +1,41 @@
+[0.613s] Invoking command in '/home/edson/ros2_ws/src/p3at_simulation': PYTHONPATH=/home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/p3at_simulation build --build-base /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/build install --record /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/install.log --single-version-externally-managed install_data
+[0.820s] running egg_info
+[0.835s] writing build/p3at_simulation/p3at_simulation.egg-info/PKG-INFO
+[0.835s] writing dependency_links to build/p3at_simulation/p3at_simulation.egg-info/dependency_links.txt
+[0.835s] deleting build/p3at_simulation/p3at_simulation.egg-info/entry_points.txt
+[0.835s] writing requirements to build/p3at_simulation/p3at_simulation.egg-info/requires.txt
+[0.835s] writing top-level names to build/p3at_simulation/p3at_simulation.egg-info/top_level.txt
+[0.866s] reading manifest file 'build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+[0.868s] writing manifest file 'build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+[0.868s] running build
+[0.868s] running build_py
+[0.869s] running install
+[0.874s] running install_lib
+[0.889s] creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.12/site-packages/p3at_simulation
+[0.890s] copying /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/build/lib/p3at_simulation/__init__.py -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.12/site-packages/p3at_simulation
+[0.890s] byte-compiling /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.12/site-packages/p3at_simulation/__init__.py to __init__.cpython-312.pyc
+[0.890s] running install_data
+[0.891s] copying package.xml -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation
+[0.891s] copying launch/p3at_gazebo.launch.py -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/launch
+[0.891s] copying urdf/p3at.xacro -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+[0.891s] copying urdf/p3at.gazebo -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+[0.891s] copying meshes/hokuyo.dae -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+[0.891s] copying meshes/tilt_cam.dae -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+[0.892s] copying meshes/pan_cam.dae -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+[0.892s] copying meshes/base_cam.dae -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+[0.892s] copying meshes/base_laser.dae -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+[0.892s] creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.892s] copying meshes/p3at_meshes/front_sonar.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.893s] copying meshes/p3at_meshes/chassis.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.893s] copying meshes/p3at_meshes/back_sonar.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.893s] copying meshes/p3at_meshes/right_hubcap.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.893s] copying meshes/p3at_meshes/axle.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.893s] copying meshes/p3at_meshes/Coordinates -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.893s] copying meshes/p3at_meshes/top.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.894s] copying meshes/p3at_meshes/left_hubcap.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.894s] copying meshes/p3at_meshes/wheel.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.894s] running install_egg_info
+[0.910s] Copying build/p3at_simulation/p3at_simulation.egg-info to /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.12/site-packages/p3at_simulation-0.0.0-py3.12.egg-info
+[0.912s] running install_scripts
+[1.013s] writing list of installed files to '/home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/install.log'
+[1.031s] Invoked command in '/home/edson/ros2_ws/src/p3at_simulation' returned '0': PYTHONPATH=/home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/p3at_simulation build --build-base /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/build install --record /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/install.log --single-version-externally-managed install_data

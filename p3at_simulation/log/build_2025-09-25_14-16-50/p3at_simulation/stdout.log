@@ -1,0 +1,39 @@
+running egg_info
+writing build/p3at_simulation/p3at_simulation.egg-info/PKG-INFO
+writing dependency_links to build/p3at_simulation/p3at_simulation.egg-info/dependency_links.txt
+deleting build/p3at_simulation/p3at_simulation.egg-info/entry_points.txt
+writing requirements to build/p3at_simulation/p3at_simulation.egg-info/requires.txt
+writing top-level names to build/p3at_simulation/p3at_simulation.egg-info/top_level.txt
+reading manifest file 'build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+writing manifest file 'build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.12/site-packages/p3at_simulation
+copying /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/build/lib/p3at_simulation/__init__.py -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.12/site-packages/p3at_simulation
+byte-compiling /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.12/site-packages/p3at_simulation/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying package.xml -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation
+copying launch/p3at_gazebo.launch.py -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/launch
+copying urdf/p3at.xacro -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at.gazebo -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying meshes/hokuyo.dae -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+copying meshes/tilt_cam.dae -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+copying meshes/pan_cam.dae -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+copying meshes/base_cam.dae -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+copying meshes/base_laser.dae -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/front_sonar.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/chassis.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/back_sonar.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/right_hubcap.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/axle.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/Coordinates -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/top.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/left_hubcap.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/wheel.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+running install_egg_info
+Copying build/p3at_simulation/p3at_simulation.egg-info to /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.12/site-packages/p3at_simulation-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/install.log'

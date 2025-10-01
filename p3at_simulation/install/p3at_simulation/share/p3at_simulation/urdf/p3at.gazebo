@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<robot>
+
+  <!-- ##################################################################### -->
+  <!-- PLUGIN DE CONTROLE DO ROBÔ (SUBSTITUIÇÃO DO ros_control)              -->
+  <!-- Usamos o DiffDrive para robôs com tração diferencial/skid-steer.     -->
+  <!-- ##################################################################### -->
+  <gazebo>
+    <plugin
+      filename="gz-sim-diff-drive-system"
+      name="gz::sim::systems::DiffDrive">
+
+      <!-- Juntas das rodas. O P3AT tem 4, então listamos todas. -->
+      <left_joint>p3at_front_left_wheel_joint</left_joint>
+      <left_joint>p3at_back_left_wheel_joint</left_joint>
+      <right_joint>p3at_front_right_wheel_joint</right_joint>
+      <right_joint>p3at_back_right_wheel_joint</right_joint>
+
+      <!-- Parâmetros do robô. VOCÊ PRECISA VERIFICAR ESTES VALORES! -->
+      <!-- Procure por 'wheel_separation' e 'wheel_radius' no seu .xacro principal -->
+      <wheel_separation>0.41</wheel_separation> <!-- Distância entre as rodas (metros) -->
+      <wheel_diameter>0.22</wheel_diameter>   <!-- Diâmetro da roda (metros) -->
+
+      <!-- Tópicos ROS -->
+      <topic>/cmd_vel</topic>
+      <odom_topic>/odom</odom_topic>
+      <tf_topic>/tf</tf_topic>
+      
+      <!-- Frames do ROS -->
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_footprint</child_frame_id>
+
+    </plugin>
+  </gazebo>
+  
+  <!-- ##################################################################### -->
+  <!-- PLUGIN DO SENSOR LASER (HOKUYO)                                       -->
+  <!-- Substituímos o sensor 'gpu_ray' e o plugin 'libgazebo_ros_gpu_laser.so' -->
+  <!-- ##################################################################### -->
+  <gazebo reference="hokuyo_link">
+    <sensor name="hokuyo_lidar_sensor" type="lidar">
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+      <update_rate>40</update_rate>
+      <lidar>
+        <scan>
+          <horizontal>
+            <samples>720</samples>
+            <resolution>1</resolution>
+            <min_angle>-1.570796</min_angle>
+            <max_angle>1.570796</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.10</min>
+          <max>30.0</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </lidar>
+      <!-- Plugin moderno para Lidar -->
+      <plugin
+        filename="gz-sim-lidar-system"
+        name="gz::sim::systems::Lidar">
+        <ros>
+          <namespace>/</namespace>
+          <topic>/scan</topic>
+          <frame_id>hokuyo_link</frame_id>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <!-- ##################################################################### -->
+  <!-- PLUGIN DA CÂMERA                                                      -->
+  <!-- Substituímos o plugin 'libgazebo_ros_camera.so'                       -->
+  <!-- ##################################################################### -->
+  <gazebo reference="camera_link">
+    <sensor name="camera_sensor" type="camera">
+      <update_rate>30.0</update_rate>
+      <camera>
+        <horizontal_fov>1.396</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>800</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <!-- Plugin moderno para Câmera -->
+      <plugin
+        filename="gz-sim-camera-system"
+        name="gz::sim::systems::Camera">
+        <ros>
+            <namespace>/</namespace>
+            <image_topic>/camera/image_raw</image_topic>
+            <camera_info_topic>/camera/camera_info</camera_info_topic>
+            <frame_id>camera_link_optical</frame_id>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+</robot>

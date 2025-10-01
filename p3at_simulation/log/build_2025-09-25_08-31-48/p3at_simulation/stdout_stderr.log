@@ -1,0 +1,114 @@
+running egg_info
+creating build/p3at_simulation/p3at_simulation.egg-info
+writing build/p3at_simulation/p3at_simulation.egg-info/PKG-INFO
+writing dependency_links to build/p3at_simulation/p3at_simulation.egg-info/dependency_links.txt
+writing entry points to build/p3at_simulation/p3at_simulation.egg-info/entry_points.txt
+writing requirements to build/p3at_simulation/p3at_simulation.egg-info/requires.txt
+writing top-level names to build/p3at_simulation/p3at_simulation.egg-info/top_level.txt
+writing manifest file 'build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+reading manifest file 'build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+writing manifest file 'build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/build
+creating /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/build/lib
+creating /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/build/lib/p3at_simulation
+copying p3at_simulation/__init__.py -> /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/build/lib/p3at_simulation
+running install
+running install_lib
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation
+copying /home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/build/lib/p3at_simulation/__init__.py -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation
+byte-compiling /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/ament_index
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/ament_index/resource_index
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/ament_index/resource_index/packages
+copying resource/p3at_simulation -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/ament_index/resource_index/packages
+copying package.xml -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/launch
+copying launch/p3at_gazebo.launch.py -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/launch
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at.xacro:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/materials.xacro:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/robot.sdf:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/pioneer3at.urdf -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at.gazebo:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/materials.xacro:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/pioneer3at.urdf:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/materials.xacro -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at.gazebo:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at (cópia).xacro:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/robot.sdf:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/pioneer3at.urdf:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/rrbot.xml:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/rrbot.xml -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at.xacro -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/actor.xacro:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at (cópia).xacro -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at.xacro:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/rrbot.xml:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/robot.sdf -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/actor.xacro -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at (cópia).xacro:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at.gazebo -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/actor.xacro:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at.txt -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/urdf
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/right_hubcap.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_wheel.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/left_wheel.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/front_sonar.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_wheel.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_swivel.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_hubcap.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/back_sonar.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/front_rim.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/left_hubcap.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/right_wheel.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/back_rim.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_hubcap.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/top.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/front_rim.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/front_rim.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_wheel.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/front_rim.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/top.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_hubcap.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/left_hubcap.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/top.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/chassis.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/right_wheel.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/left_hubcap.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/top.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_hubcap.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/back_sonar.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_wheel.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/right_wheel.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/back_rim.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/left_wheel.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/back_rim.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/back_sonar.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/right_hubcap.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/right_hubcap.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_swivel.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_swivel.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/right_wheel.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/chassis.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/left_wheel.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/left_hubcap.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/chassis.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/back_sonar.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/left_wheel.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/front_sonar.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/back_rim.stl -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/right_hubcap.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/chassis.stl:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/front_sonar.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/front_sonar.stl:Zone.Identifier:Zone.Identifier:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_swivel.stl:Zone.Identifier -> /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+creating /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/share/p3at_simulation/worlds
+running install_egg_info
+Copying build/p3at_simulation/p3at_simulation.egg-info to /home/edson/ros2_ws/src/p3at_simulation/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/edson/ros2_ws/src/p3at_simulation/build/p3at_simulation/install.log'
