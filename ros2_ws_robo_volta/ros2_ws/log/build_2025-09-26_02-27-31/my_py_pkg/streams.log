@@ -1,0 +1,21 @@
+[1.028s] Invoking command in '/home/robot/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/robot/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/ros2_ws/build/my_py_pkg/build --no-deps symlink_data
+[1.368s] running develop
+[1.563s] running egg_info
+[1.563s] writing my_py_pkg.egg-info/PKG-INFO
+[1.563s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.564s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.564s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.564s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.566s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.567s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.569s] running build_ext
+[1.569s] Creating /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.571s] Installing controller2 script to /home/robot/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.571s] Installing listener script to /home/robot/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.571s] Installing talker script to /home/robot/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.571s] Installing turtle_controller script to /home/robot/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.571s] Installing turtle_pose_reader script to /home/robot/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.571s] 
+[1.571s] Installed /home/robot/ros2_ws/build/my_py_pkg
+[1.572s] running symlink_data
+[1.620s] Invoked command in '/home/robot/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/robot/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/ros2_ws/build/my_py_pkg/build --no-deps symlink_data

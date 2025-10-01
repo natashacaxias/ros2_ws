@@ -1,0 +1,56 @@
+[0.641s] Invoking command in '/home/robot/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/robot/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robot/ros2_ws/build/my_py_pkg/build
+[0.818s] running develop
+[0.924s] Removing /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.948s] Invoked command in '/home/robot/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/robot/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/robot/ros2_ws/build/my_py_pkg/build
+[0.949s] Invoking command in '/home/robot/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/robot/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/robot/ros2_ws/build/my_py_pkg/build install --record /home/robot/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[1.098s] running egg_info
+[1.098s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.099s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.099s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.099s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.099s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.101s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.102s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.102s] running build
+[1.102s] running build_py
+[1.102s] creating /home/robot/ros2_ws/build/my_py_pkg/build
+[1.102s] creating /home/robot/ros2_ws/build/my_py_pkg/build/lib
+[1.102s] creating /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.102s] copying my_py_pkg/turtle_controller.py -> /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.103s] copying my_py_pkg/__init__.py -> /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.103s] copying my_py_pkg/turtle_controller2.py -> /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.103s] copying my_py_pkg/talker.py -> /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.103s] copying my_py_pkg/listener.py -> /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.103s] copying my_py_pkg/turtle_controller2 (copy).py -> /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.103s] copying my_py_pkg/turtle_pose_reader.py -> /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.104s] running install
+[1.104s] running install_lib
+[1.105s] creating /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.105s] copying /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller.py -> /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.105s] copying /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.105s] copying /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller2.py -> /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.105s] copying /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/talker.py -> /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.105s] copying /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/listener.py -> /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.105s] copying /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller2 (copy).py -> /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.106s] copying /home/robot/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_pose_reader.py -> /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.106s] byte-compiling /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc
+[1.106s] byte-compiling /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.106s] byte-compiling /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_controller2.py to turtle_controller2.cpython-310.pyc
+[1.106s] byte-compiling /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/talker.py to talker.cpython-310.pyc
+[1.106s] byte-compiling /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/listener.py to listener.cpython-310.pyc
+[1.106s] byte-compiling /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_controller2 (copy).py to turtle_controller2 (copy).cpython-310.pyc
+[1.107s] byte-compiling /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_pose_reader.py to turtle_pose_reader.cpython-310.pyc
+[1.107s] running install_data
+[1.107s] copying resource/my_py_pkg -> /home/robot/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.107s] copying package.xml -> /home/robot/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.107s] copying launch/turtle_demo.launch.py -> /home/robot/ros2_ws/install/my_py_pkg/share/my_py_pkg/launch
+[1.108s] running install_egg_info
+[1.109s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.109s] running install_scripts
+[1.123s] Installing controller2 script to /home/robot/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.123s] Installing listener script to /home/robot/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.123s] Installing talker script to /home/robot/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.123s] Installing turtle_controller script to /home/robot/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.124s] Installing turtle_pose_reader script to /home/robot/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.124s] writing list of installed files to '/home/robot/ros2_ws/build/my_py_pkg/install.log'
+[1.141s] Invoked command in '/home/robot/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/robot/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/robot/ros2_ws/build/my_py_pkg/build install --record /home/robot/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

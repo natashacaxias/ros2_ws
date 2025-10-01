@@ -1,0 +1,17 @@
+[1.025s] Invoking command in '/home/robot/ros2_ws/build/p3at_simulation': PYTHONPATH=/home/robot/ros2_ws/build/p3at_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/ros2_ws/build/p3at_simulation/build --no-deps symlink_data
+[1.364s] running develop
+[1.560s] running egg_info
+[1.560s] writing p3at_simulation.egg-info/PKG-INFO
+[1.560s] writing dependency_links to p3at_simulation.egg-info/dependency_links.txt
+[1.560s] writing entry points to p3at_simulation.egg-info/entry_points.txt
+[1.561s] writing requirements to p3at_simulation.egg-info/requires.txt
+[1.561s] writing top-level names to p3at_simulation.egg-info/top_level.txt
+[1.563s] reading manifest file 'p3at_simulation.egg-info/SOURCES.txt'
+[1.565s] writing manifest file 'p3at_simulation.egg-info/SOURCES.txt'
+[1.568s] running build_ext
+[1.568s] Creating /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at-simulation.egg-link (link to .)
+[1.569s] Installing p3at_controller script to /home/robot/ros2_ws/install/p3at_simulation/lib/p3at_simulation
+[1.569s] 
+[1.570s] Installed /home/robot/ros2_ws/build/p3at_simulation
+[1.570s] running symlink_data
+[1.633s] Invoked command in '/home/robot/ros2_ws/build/p3at_simulation' returned '0': PYTHONPATH=/home/robot/ros2_ws/build/p3at_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/ros2_ws/build/p3at_simulation/build --no-deps symlink_data

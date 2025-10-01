@@ -1,0 +1,77 @@
+running egg_info
+creating ../../build/p3at_simulation/p3at_simulation.egg-info
+writing ../../build/p3at_simulation/p3at_simulation.egg-info/PKG-INFO
+writing dependency_links to ../../build/p3at_simulation/p3at_simulation.egg-info/dependency_links.txt
+writing entry points to ../../build/p3at_simulation/p3at_simulation.egg-info/entry_points.txt
+writing requirements to ../../build/p3at_simulation/p3at_simulation.egg-info/requires.txt
+writing top-level names to ../../build/p3at_simulation/p3at_simulation.egg-info/top_level.txt
+writing manifest file '../../build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+reading manifest file '../../build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+writing manifest file '../../build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/ros2_ws/build/p3at_simulation/build
+creating /home/robot/ros2_ws/build/p3at_simulation/build/lib
+creating /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation
+copying p3at_simulation/__init__.py -> /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation
+running install
+running install_lib
+creating /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation
+copying /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation/__init__.py -> /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation
+byte-compiling /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/p3at_simulation -> /home/robot/ros2_ws/install/p3at_simulation/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation
+copying launch/p3at_gazebo.launch.py -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/launch
+copying urdf/p3at.txt -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at.xacro -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/actor.xacro -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/robot.sdf -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at (cópia).xacro -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/materials.xacro -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/pioneer3at.urdf -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+copying urdf/p3at.gazebo -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+creating /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+copying meshes/base_laser.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+copying meshes/pan_cam.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+copying meshes/base_cam.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+copying meshes/tilt_cam.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+copying meshes/hokuyo.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+creating /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_wheel.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_hubcap.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/caster_swivel.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/top.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/left_hubcap.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/right_wheel.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/front_rim.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/right_hubcap.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/left_wheel.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/back_rim.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/chassis.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/front_sonar.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+copying meshes/p3dx_meshes/back_sonar.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+creating /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+copying meshes/pioneer-lx/pioneer-lx-plinth.blend -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+copying meshes/pioneer-lx/pioneer-lx-plinth.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+copying meshes/pioneer-lx/pioneer-lx_hull.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+copying meshes/pioneer-lx/pioneer-lx_visual.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+copying meshes/pioneer-lx/pioneer-lx_visual.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+copying meshes/pioneer-lx/pioneer-lx.blend -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+copying meshes/pioneer-lx/pioneer-lx_hull.blend -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+copying meshes/pioneer-lx/pioneer-lx_hull.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+copying meshes/pioneer-lx/pioneer-lx-plinth.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+creating /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/wheel.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/top.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/left_hubcap.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/axle.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/right_hubcap.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/Coordinates -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/chassis.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/front_sonar.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+copying meshes/p3at_meshes/back_sonar.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+running install_egg_info
+Copying ../../build/p3at_simulation/p3at_simulation.egg-info to /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/robot/ros2_ws/build/p3at_simulation/install.log'

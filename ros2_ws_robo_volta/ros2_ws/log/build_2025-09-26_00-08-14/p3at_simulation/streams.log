@@ -1,0 +1,35 @@
+[0.388s] Invoking command in '/home/robot/ros2_ws/src/p3at_simulation': PYTHONPATH=/home/robot/ros2_ws/build/p3at_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p3at_simulation build --build-base /home/robot/ros2_ws/build/p3at_simulation/build install --record /home/robot/ros2_ws/build/p3at_simulation/install.log --single-version-externally-managed install_data
+[0.532s] running egg_info
+[0.532s] writing ../../build/p3at_simulation/p3at_simulation.egg-info/PKG-INFO
+[0.533s] writing dependency_links to ../../build/p3at_simulation/p3at_simulation.egg-info/dependency_links.txt
+[0.533s] writing entry points to ../../build/p3at_simulation/p3at_simulation.egg-info/entry_points.txt
+[0.533s] writing requirements to ../../build/p3at_simulation/p3at_simulation.egg-info/requires.txt
+[0.533s] writing top-level names to ../../build/p3at_simulation/p3at_simulation.egg-info/top_level.txt
+[0.534s] reading manifest file '../../build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+[0.535s] writing manifest file '../../build/p3at_simulation/p3at_simulation.egg-info/SOURCES.txt'
+[0.535s] running build
+[0.535s] running build_py
+[0.535s] copying p3at_simulation/turtle_controller.py -> /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation
+[0.535s] copying p3at_simulation/turtle_controller2.py -> /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation
+[0.535s] copying p3at_simulation/talker.py -> /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation
+[0.535s] copying p3at_simulation/listener.py -> /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation
+[0.536s] copying p3at_simulation/turtle_pose_reader.py -> /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation
+[0.536s] running install
+[0.536s] running install_lib
+[0.536s] copying /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation/turtle_controller.py -> /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation
+[0.536s] copying /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation/turtle_controller2.py -> /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation
+[0.536s] copying /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation/talker.py -> /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation
+[0.536s] copying /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation/listener.py -> /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation
+[0.536s] copying /home/robot/ros2_ws/build/p3at_simulation/build/lib/p3at_simulation/turtle_pose_reader.py -> /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation
+[0.537s] byte-compiling /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.537s] byte-compiling /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation/turtle_controller2.py to turtle_controller2.cpython-310.pyc
+[0.537s] byte-compiling /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation/talker.py to talker.cpython-310.pyc
+[0.537s] byte-compiling /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation/listener.py to listener.cpython-310.pyc
+[0.537s] byte-compiling /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation/turtle_pose_reader.py to turtle_pose_reader.cpython-310.pyc
+[0.537s] running install_data
+[0.538s] running install_egg_info
+[0.539s] removing '/home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation-0.0.0-py3.10.egg-info' (and everything under it)
+[0.539s] Copying ../../build/p3at_simulation/p3at_simulation.egg-info to /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at_simulation-0.0.0-py3.10.egg-info
+[0.540s] running install_scripts
+[0.553s] writing list of installed files to '/home/robot/ros2_ws/build/p3at_simulation/install.log'
+[0.569s] Invoked command in '/home/robot/ros2_ws/src/p3at_simulation' returned '0': PYTHONPATH=/home/robot/ros2_ws/build/p3at_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p3at_simulation build --build-base /home/robot/ros2_ws/build/p3at_simulation/build install --record /home/robot/ros2_ws/build/p3at_simulation/install.log --single-version-externally-managed install_data

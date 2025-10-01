@@ -1,0 +1,65 @@
+[0.566s] Invoking command in '/home/robot/ros2_ws/build/p3at_simulation': PYTHONPATH=/home/robot/ros2_ws/build/p3at_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/ros2_ws/build/p3at_simulation/build --no-deps symlink_data --force
+[0.730s] running develop
+[0.825s] running egg_info
+[0.825s] writing p3at_simulation.egg-info/PKG-INFO
+[0.826s] writing dependency_links to p3at_simulation.egg-info/dependency_links.txt
+[0.826s] writing entry points to p3at_simulation.egg-info/entry_points.txt
+[0.826s] writing requirements to p3at_simulation.egg-info/requires.txt
+[0.826s] writing top-level names to p3at_simulation.egg-info/top_level.txt
+[0.827s] reading manifest file 'p3at_simulation.egg-info/SOURCES.txt'
+[0.827s] writing manifest file 'p3at_simulation.egg-info/SOURCES.txt'
+[0.828s] running build_ext
+[0.828s] Creating /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at-simulation.egg-link (link to .)
+[0.829s] Installing p3at_controller script to /home/robot/ros2_ws/install/p3at_simulation/lib/p3at_simulation
+[0.829s] 
+[0.829s] Installed /home/robot/ros2_ws/build/p3at_simulation
+[0.829s] running symlink_data
+[0.829s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/resource/p3at_simulation -> /home/robot/ros2_ws/install/p3at_simulation/share/ament_index/resource_index/packages
+[0.829s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/package.xml -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation
+[0.830s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/launch/p3at_gazebo.launch.py -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/launch
+[0.830s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/launch/p3at_circle.launch.py -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/launch
+[0.830s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/urdf/p3at.txt -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+[0.830s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/urdf/p3at.xacro -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+[0.830s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/urdf/actor.xacro -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+[0.830s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/urdf/robot.sdf -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+[0.830s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/urdf/p3at (cópia).xacro -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+[0.830s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/urdf/materials.xacro -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+[0.830s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/urdf/pioneer3at.urdf -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/urdf/p3at.gazebo -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/urdf
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/base_laser.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/pan_cam.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/base_cam.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/tilt_cam.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/hokuyo.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/caster_wheel.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/caster_hubcap.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/caster_swivel.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/top.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/left_hubcap.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.831s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/right_wheel.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.832s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/front_rim.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.832s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/right_hubcap.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.832s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/left_wheel.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.832s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/back_rim.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.832s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/chassis.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.832s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/front_sonar.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.832s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3dx_meshes/back_sonar.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3dx_meshes
+[0.832s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/pioneer-lx/pioneer-lx-plinth.blend -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+[0.832s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/pioneer-lx/pioneer-lx-plinth.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+[0.832s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/pioneer-lx/pioneer-lx_hull.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+[0.833s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/pioneer-lx/pioneer-lx_visual.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+[0.835s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/pioneer-lx/pioneer-lx_visual.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+[0.837s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/pioneer-lx/pioneer-lx.blend -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+[0.838s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/pioneer-lx/pioneer-lx_hull.blend -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+[0.838s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/pioneer-lx/pioneer-lx_hull.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+[0.838s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/pioneer-lx/pioneer-lx-plinth.dae -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/pioneer-lx
+[0.838s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3at_meshes/wheel.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.838s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3at_meshes/top.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.838s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3at_meshes/left_hubcap.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.838s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3at_meshes/axle.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.838s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3at_meshes/right_hubcap.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.838s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3at_meshes/Coordinates -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.838s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3at_meshes/chassis.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.839s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3at_meshes/front_sonar.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.839s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/meshes/p3at_meshes/back_sonar.stl -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/meshes/p3at_meshes
+[0.861s] Invoked command in '/home/robot/ros2_ws/build/p3at_simulation' returned '0': PYTHONPATH=/home/robot/ros2_ws/build/p3at_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/ros2_ws/build/p3at_simulation/build --no-deps symlink_data --force

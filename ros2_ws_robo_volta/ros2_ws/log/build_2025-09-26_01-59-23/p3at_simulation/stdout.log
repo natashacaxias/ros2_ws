@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing p3at_simulation.egg-info/PKG-INFO
+writing dependency_links to p3at_simulation.egg-info/dependency_links.txt
+writing entry points to p3at_simulation.egg-info/entry_points.txt
+writing requirements to p3at_simulation.egg-info/requires.txt
+writing top-level names to p3at_simulation.egg-info/top_level.txt
+reading manifest file 'p3at_simulation.egg-info/SOURCES.txt'
+writing manifest file 'p3at_simulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at-simulation.egg-link (link to .)
+Installing p3at_controller script to /home/robot/ros2_ws/install/p3at_simulation/lib/p3at_simulation
+
+Installed /home/robot/ros2_ws/build/p3at_simulation
+running symlink_data
+symbolically linking /home/robot/ros2_ws/build/p3at_simulation/launch/p3at_circle.launch.py -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/launch

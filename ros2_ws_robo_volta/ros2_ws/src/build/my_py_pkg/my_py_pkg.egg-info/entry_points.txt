@@ -1,0 +1,7 @@
+[console_scripts]
+controller2 = my_py_pkg.turtle_controller2:main
+listener = my_py_pkg.listener:main
+talker = my_py_pkg.talker:main
+turtle_controller = my_py_pkg.turtle_controller:main
+turtle_pose_reader = my_py_pkg.turtle_pose_reader:main
+

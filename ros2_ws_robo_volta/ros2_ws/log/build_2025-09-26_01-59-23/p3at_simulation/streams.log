@@ -1,0 +1,18 @@
+[1.306s] Invoking command in '/home/robot/ros2_ws/build/p3at_simulation': PYTHONPATH=/home/robot/ros2_ws/build/p3at_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/ros2_ws/build/p3at_simulation/build --no-deps symlink_data
+[1.630s] running develop
+[1.854s] running egg_info
+[1.854s] writing p3at_simulation.egg-info/PKG-INFO
+[1.855s] writing dependency_links to p3at_simulation.egg-info/dependency_links.txt
+[1.855s] writing entry points to p3at_simulation.egg-info/entry_points.txt
+[1.855s] writing requirements to p3at_simulation.egg-info/requires.txt
+[1.855s] writing top-level names to p3at_simulation.egg-info/top_level.txt
+[1.858s] reading manifest file 'p3at_simulation.egg-info/SOURCES.txt'
+[1.860s] writing manifest file 'p3at_simulation.egg-info/SOURCES.txt'
+[1.862s] running build_ext
+[1.862s] Creating /home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages/p3at-simulation.egg-link (link to .)
+[1.863s] Installing p3at_controller script to /home/robot/ros2_ws/install/p3at_simulation/lib/p3at_simulation
+[1.863s] 
+[1.864s] Installed /home/robot/ros2_ws/build/p3at_simulation
+[1.864s] running symlink_data
+[1.864s] symbolically linking /home/robot/ros2_ws/build/p3at_simulation/launch/p3at_circle.launch.py -> /home/robot/ros2_ws/install/p3at_simulation/share/p3at_simulation/launch
+[1.919s] Invoked command in '/home/robot/ros2_ws/build/p3at_simulation' returned '0': PYTHONPATH=/home/robot/ros2_ws/build/p3at_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/p3at_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robot/ros2_ws/build/p3at_simulation/build --no-deps symlink_data

@@ -1,0 +1,4 @@
+[console_scripts]
+qlearn_exec = qlearn_diffdrive.qlearn_turtlesim_exec:main
+qlearn_turtlesim = qlearn_diffdrive.qlearn_turtlesim:main
+
