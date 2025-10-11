@@ -13,6 +13,8 @@ data_files=[
     (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     (os.path.join('share', package_name, 'urdf'), glob('urdf/*')),
     (os.path.join('share', package_name, 'worlds'), glob('worlds/*')),
+    (os.path.join('share', package_name, 'data'), glob('data/*')),
+
 ]
 
 # Lógica para copiar recursivamente a pasta 'meshes'
