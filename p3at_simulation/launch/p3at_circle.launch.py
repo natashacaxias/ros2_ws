@@ -26,7 +26,7 @@ def generate_launch_description():
 
     controller = Node(
         package='p3at_simulation',
-        executable='p3at_controller',         # entry point do setup.py
+        executable='p3at_dqn_controller',         # entry point do setup.py
         name='p3at_controller_node',
         output='screen',
         parameters=[{'cmd_vel_topic': '/cmd_vel'}],  # tópico que você confirmou
