@@ -1,6 +1,7 @@
 import os
 from glob import glob
 from setuptools import setup
+from setuptools import find_packages
 
 package_name = 'p3at_simulation'
 
@@ -13,7 +14,7 @@ data_files=[
     (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     (os.path.join('share', package_name, 'urdf'), glob('urdf/*')),
     (os.path.join('share', package_name, 'worlds'), glob('worlds/*')),
-    (os.path.join('share', package_name, 'data'), glob('data/*')),
+    (os.path.join('share', package_name, 'data'), ['data/Q_model.pth']),
 
 ]
 
@@ -33,7 +34,7 @@ for dirpath, _, filenames in os.walk('meshes'):
 setup(
     name=package_name,
     version='0.0.0',
-    packages=[package_name],
+    packages=find_packages(include=['p3at_simulation', 'p3at_simulation.*']),
     # Usamos a lista que acabamos de preencher
     data_files=data_files,
     install_requires=['setuptools'],
@@ -46,6 +47,7 @@ setup(
     entry_points={
         'console_scripts': [
               'p3at_controller = p3at_simulation.p3at_controller:main',
+              'p3at_dqn_controller = p3at_simulation.nodes.p3at_dqn_controller:main',
         ],
     },
 )
